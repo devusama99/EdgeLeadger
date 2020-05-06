@@ -1,0 +1,284 @@
+html
+{
+    font-size: 10px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+   font-family: 'Roboto', sans-serif;
+}
+a
+{
+    text-decoration:underline;
+    
+}
+ul
+{
+    list-style: none;
+}
+p
+{
+    margin: 1rem;
+}
+/* utility classes */
+.text-primary
+{
+    color: #93cb52;
+}
+/* navbar */
+#navbar
+{
+    display:flex;
+    justify-content: space-between;
+    background: #222;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1.6rem;
+}
+#navbar ul
+{
+    display: flex;
+    align-items: center;
+
+}
+#navbar ul li a
+{
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 0 0.4rem;
+    font-size: 1.4rem;
+}
+#navbar ul li a:hover
+{
+    background: #93cb52;
+    border-radius: 1rem;
+    color: #222;
+}
+.logo
+{
+    font-size: 2rem;
+}
+/* showcase */
+hr
+{
+    border: none;
+}
+#showcase
+{
+    background: #222 url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content
+{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 3rem;
+    /* overlay */
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+#showcase .showcase-content .l-heading
+{
+    font-size: 5rem;
+    line-height: 6rem;
+}
+#showcase .showcase-content p
+{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+#showcase .showcase-content .btn 
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#showcase .showcase-content .btn:hover
+{
+    background-color: #93cb52;
+    color: #222;
+}
+/* what we do */
+.m-heading
+{
+    text-align: center;
+    margin-top: 4rem;
+    line-height: 3rem;
+    font-size: 3rem;
+}
+.items
+{
+    display: flex;
+    padding: 0 1.6rem;
+    padding-top: 1.6rem;
+    margin-bottom: 4rem ;
+
+
+}
+.item
+{
+    flex: 1;
+    text-align: center;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+}
+.items .item i
+{
+    background: #93cb52;
+    border-radius: 50%;
+    padding: 1.6rem;
+    margin-bottom: 1rem;
+
+}
+/* who we are  */
+#container-two
+{
+    display: flex;
+    
+}
+#team
+{
+    background: url(../img/people.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+#who-text
+{
+    background: #222;
+    padding: 4rem;
+    color: #fff;
+    line-height: 2rem;
+    flex: 1;
+}
+#who-text p{
+    padding: 0;
+    margin: 1.3rem 0;
+    font-size: 1.3rem;
+}
+#who-text h2{
+    font-size: 2rem;
+}
+#who-text h3{
+    font-size: 1.4rem;
+    margin: 1.3rem 0;
+}
+#who-text ul
+{
+    font-size: 1.3rem;
+}
+/* clients section */
+#clients h2{
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+}
+#clients .client
+{
+    display: flex;
+    
+   
+}
+#clients .client img
+{
+    margin: auto;
+    display: block;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+/* contact us and map */
+.contact-form 
+{
+    
+    background: #93cb52;
+}
+.contact-form h2{
+    font-size: 4rem;
+    padding-top: 4rem;
+    color: #fff;
+}
+form{
+    width: 40%;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.5rem;    
+}
+h2
+{
+    text-align: center;
+}
+label
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+input 
+{
+    padding: 0.7rem 0.3rem;
+    background: #93cb52;
+    border-style: none;
+    border-bottom: solid 1px black;
+    margin-bottom: 1.6rem;
+    
+}
+textarea
+{
+    padding: 0.7rem 0.3rem;
+    background: #93cb52;
+    border: solid black 1px;
+    border-top: 0;
+    
+}
+button
+{
+    margin-top: 1.6rem;
+    background: #222;
+    border-style: none;
+    padding: 0.6rem;
+    color: #fff;
+    border-radius: 5rem;
+    max-width: 10rem;
+}
+button:hover
+{
+    background: #111;
+}
+footer
+{
+    background: #222;
+    padding:0.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+
+

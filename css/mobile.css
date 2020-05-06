@@ -1,0 +1,66 @@
+/* items stack */
+#what .items
+{
+    display: flex;
+    flex-direction: column;
+}
+#who #container-two
+{
+    display: flex;
+    flex-direction: column;
+}
+hr
+{
+    
+    border: #333333 solid 0.5px;
+    width: 80%;
+    margin: 1.3rem auto;
+}
+form
+{
+    width: 90%;
+}
+
+#showcase .showcase-content
+{
+    /* overlay */
+    position: absolute;
+    top: 268px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+#navbar
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#navbar h1
+{
+    margin-bottom: 1.5rem;
+}
+#navbar ul 
+{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: center;
+}
+#navbar ul li
+{
+    margin-top: 0.5rem;
+    
+}
+
+#navbar ul li a
+{
+    font-size: 2rem;
+}
+#navbar ul li a:hover
+{
+    background: #222222;
+    color: #93cb52;
+}
